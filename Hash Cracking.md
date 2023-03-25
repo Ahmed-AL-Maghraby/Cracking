@@ -30,7 +30,7 @@ hashcat --help | grep 'HashType'
 Crack
 
 ```
-$ hashcat -m <hash mode> hash.txt wordlist.txt --force
+$ hashcat -m <hash mode> hash.txt wordlist.txt
 ```
 
 
