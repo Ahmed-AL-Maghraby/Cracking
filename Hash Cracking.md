@@ -9,6 +9,8 @@
 
 +  MD5, SHA1, MySQL, NTLM, SHA256, SHA512 hashes : https://hashes.com/en/decrypt/hash
 
++ Crack all hases : https://md5hashing.net/hash/ripemd128
+
 + Hash analyzer : https://www.tunnelsup.com/hash-analyzer/
 
 ## CLI Tools
