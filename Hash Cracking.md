@@ -34,6 +34,65 @@ $ hashcat -m <hash mode> hash.txt wordlist.txt
 ```
 
 
+### Crack with John 
+
+```
+john --wordlist=[path to wordlist] [HashFile]
+```
+
+Search about format
+
+```
+$ john --list=formats | grep -iF "md5"
+```
+
+Specific Format 
+
+```
+--format=[format]
+EX -> --format=raw-md5
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
