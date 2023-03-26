@@ -54,6 +54,25 @@ EX -> --format=raw-md5
 ```
 
 
+Cracking Windows Hashes ( NTHash / NTLM )
+
+```
+--format=nt
+```
+
+Cracking Hashes from /etc/shadow
+
+```
+unshadow local_passwd local_shadow > unshadowed.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt unshadowed.txt
+```
+
+Single Crack Mode
+
+```
+john --single --format=Raw-MD5 hash.txt
+```
+
 
 
 
